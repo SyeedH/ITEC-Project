@@ -1,0 +1,19 @@
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 125;
+}
+
+body {
+ background-image: url("background.jpg");
+ background-color: #cccccc
+
+}
+h1 {
+  color: white;
+ text-align: center;
+
+p {
+  color: black;
+}
