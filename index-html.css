@@ -28,5 +28,8 @@
     float:none;
 }
 
-#computer-nav-button{
+a > p {
+    padding-left: 10pt;
 }
+
+
