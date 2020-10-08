@@ -16,30 +16,33 @@
 
   <body>
     <!--this is the top bar of the page-->
-    <div name="top-bar" class="w3-container w3-teal">
-      <div class="w3-dropdown-click">
-        <button onclick="myFunction()" class="w3-button"><img src="Images/hamburger-menu-new.png" alt="Menu" width="30"/></button>
+    <header>
+      <div name="top-bar" class="w3-container w3-teal">
+        <div class="w3-dropdown-click">
+          <button onclick="myFunction()" class="w3-button"><img src="Images/hamburger-menu-new.png" alt="Menu" width="30"/></button>
 
-        <div id="hamburger-dropdown" class="w3-dropdown-content w3-bar-block w3-animate-left">
-          <a href="#" class="w3-bar-item w3-button">Computers</a>
+          <div id="hamburger-dropdown" class="w3-dropdown-content w3-bar-block w3-animate-left">
+            <a href="#" class="w3-bar-item w3-button">Computers</a>
+          </div>
         </div>
+
+        <a id="logo" href="index.html"><img src="Images/logo_Computeristic2-removebg.png" alt="Computeristic logo" width="125"></a>
+        <span>
+            <input id="search" type="search" placeholder="Search"/>
+        </span>
+
+        <a id="shopping-cart" href=""><img src="Images/shopping-cart-of-checkered-design.png" alt="shopping-cart" width="25" /></a>
+        <a id="account-icon" href=""><img src="Images/account-icon.png"  alt="Account" width="25" /></a>
       </div>
-
-      <a id="logo" href="index.html"><img src="Images/logo_Computeristic2-removebg.png" alt="Computeristic logo" width="125"></a>
-      <span>
-          <input id="search" type="search" placeholder="Search"/>
-      </span>
-
-      <a id="shopping-cart" href=""><img src="Images/shopping-cart-of-checkered-design.png" alt="shopping-cart" width="25" /></a>
-      <a id="account-icon" href=""><img src="Images/account-icon.png"  alt="Account" width="25" /></a>
-    </div>
-    
+    </header>
     <!--This is where the nav bar is-->
-    <div name="nav-bar" class="w3-bar w3-green">
-      <button id="computer-nav-button" class="w3-bar-item w3-button">Computers</button>
-      <button class="w3-bar-item w3-button">Laptops</button>
-      <button class="w3-bar-item w3-button">Accessories</button>
-    </div>
+    <nav>
+      <div name="nav-bar" class="w3-bar w3-green">
+        <button id="computer-nav-button" class="w3-bar-item w3-button w3-hover-blue">Computers</button>
+        <button class="w3-bar-item w3-button w3-hover-blue">Laptops</button>
+        <button class="w3-bar-item w3-button w3-hover-blue">Accessories</button>
+      </div>
+    </nav>
 
   </body>
 </html

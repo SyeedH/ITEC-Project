@@ -1,8 +1,7 @@
 #logo {
     max-width: 100%;
     height: auto;
-    margin-left: 215pt;
-
+    position: relative;
 }
 
 #search{
@@ -24,4 +23,8 @@
     height: auto;
     margin-left: 20pt;
     margin-right:215pt;
+}
+
+#computer-nav-button{
+    margin-left: 600pt;
 }
