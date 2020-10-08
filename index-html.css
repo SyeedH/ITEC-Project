@@ -32,4 +32,17 @@ a > p {
     padding-left: 10pt;
 }
 
+.product-header{    text-decoration: none;
+    color: grey;
+    
+}
+
+.product-header:visited{
+    color: purple;
+}
+
+.product-header:hover{
+    color:blue;
+}
+
 
