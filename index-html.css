@@ -32,7 +32,8 @@ a > p {
     padding-left: 10pt;
 }
 
-.product-header{    text-decoration: none;
+.product-header{    
+    text-decoration: none;
     color: grey;
     
 }
@@ -44,5 +45,32 @@ a > p {
 .product-header:hover{
     color:blue;
 }
+
+.item-price{
+    color:#FF5C5C;
+}
+
+.products:visited{
+    color:purple;
+}
+
+.products-background{
+    box-shadow: 6pt;
+    border-radius: 10%;
+    border-width: 10pt;
+    border-top: 10pt;
+    border-color: black;
+}
+
+.products-background:hover{
+background-color: #E3DAD7;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
 
 
