@@ -68,6 +68,8 @@ a.products {
     display: block;
 }
 
-
+#inspiron:hover{
+    opacity: 70%;
+}
 
 
