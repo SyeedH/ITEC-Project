@@ -17,7 +17,8 @@
   <body>
     <!--this is the top bar of the page-->
     <header>
-      <div name="top-bar" class="w3-container w3-teal">
+      <div name="top-bar-large" class="w3-container w3-teal w3-mobile w3-row-padding">
+        
         <div class="w3-dropdown-click">
           <button id="hamburger-icon" onclick="myFunction()" class="w3-button"><img src="Images/hamburger-menu-new.png" alt="Menu" width="25"/></button>
 
@@ -26,10 +27,14 @@
           </div>
         </div>
 
-        <a id="logo" href="index.html"><img src="Images/logo_Computeristic2-removebg.png" alt="Computeristic logo" width="125"></a>
+          <a id="logo" href="index.html"><img src="Images/logo_Computeristic2-removebg.png" alt="Computeristic logo" width="125"></a>
         <span>
-            <input id="search" type="search" placeholder="Search"/>
+            <input id="search" class="w3-hide-small" type="search" placeholder="Search"/>
+            <a href="#">
+              <img class="w3-hide-large" src="Images/Search-icon.png" alt="Searh" width="23"/>
+            </a>
         </span>
+        <input id="search-small" class="w3-hide-large w3-hide-medium" type="search" placeholder="Search"/>
 
         <a id="shopping-cart" href="Assignment.html"><img src="Images/shopping-cart-of-checkered-design.png" alt="shopping-cart" width="25" /></a>
         <a id="account-icon" href="#"><img src="Images/account-icon.png"  alt="Account" width="25" /></a>
@@ -38,10 +43,16 @@
 
     <!--This is where the nav bar is-->
     <nav>
-      <div name="nav-bar" class="w3-bar w3-green">
-        <button id="computer-nav-button" class="w3-bar-item w3-button w3-hover-blue">Computers</button>
+      <div name="nav-bar-large" class="w3-bar w3-green w3-hide-small">
+        <button class="w3-bar-item w3-button w3-hover-blue">Computers</button>
         <button class="w3-bar-item w3-button w3-hover-blue">Laptops</button>
         <button class="w3-bar-item w3-button w3-hover-blue">Accessories</button>
+      </div>
+
+      <div name="nav-bar-small" class="w3-bar w3-green w3-hide-large w3-hide-medium w3-center">
+        <button class="w-bar-item w3-button w3-block">Computer</button>
+        <button class="w-bar-item w3-button w3-block">Laptops</button>
+        <button class="w-bar-item w3-button w3-block">Accessories</button>
       </div>
     </nav>
 
@@ -51,7 +62,7 @@
         <h2 id="todays deals">Today's Deals</h2>
 
         <div name="Desktops" class="w3-mobile w3-container">    
-          <h6 class="product-header"><a href="#" class="product-header">Desktops &gt;</a></h6>
+          <h5 class="product-header"><a href="#" class="product-header">Desktops &gt;</a></h5>
 
         
           <div class=" w3-container w3-cell w3-hover-shadow w3-center w3-col s3" id="Acer-Nitro-50-N50-600-EB14">
@@ -117,7 +128,7 @@
         </div>
 
         <div name="Laptops" class="w3-mobile w3-container">
-          <h6 class="product-header"><a href="#" class="product-header">Laptops &gt;</a></h6>
+          <h5 class="product-header"><a href="#" class="product-header">Laptops &gt;</a></h5>
 
           <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" class="products">
@@ -134,9 +145,12 @@
             </a>
           </div>
 
-          <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3">
+          <div  id="inspiron" class="w3-display-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" class="products">
               <img src="inspiron.png" alt="inspiron" width="135"/>
+              <div class="w3-display-middle w3-display-hover">
+                <button id="Add-To-Cart" class="w3-button w3-hover-teal w3-blue">Add to Cart</button>
+              </div>
               <p>
                 Inspiron, 256GB SSD, AMD<br/>
                 Ryzen, 8GB RAM, Windows<br/>
@@ -180,7 +194,7 @@
         </div>
 
         <div name="Accessories" class="w3-mobile w3-container">
-          <h6 class="product-header"><a href="#" class="product-header">Accessories &gt;</a></h6>
+          <h5 class="product-header"><a href="#" class="product-header">Accessories &gt;</a></h5>
 
           <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" class="products">
