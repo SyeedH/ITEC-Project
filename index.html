@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="w3-mobile">
   <head>
     <title>Computeristic</title>
     <!--About this page -->
@@ -17,7 +17,8 @@
   <body>
     <!--this is the top bar of the page-->
     <header>
-      <div name="top-bar" class="w3-container w3-teal">
+      <div name="top-bar-large" class="w3-container w3-teal w3-mobile w3-row-padding">
+        
         <div class="w3-dropdown-click">
           <button id="hamburger-icon" onclick="myFunction()" class="w3-button"><img src="Images/hamburger-menu-new.png" alt="Menu" width="25"/></button>
 
@@ -26,10 +27,14 @@
           </div>
         </div>
 
-        <a id="logo" href="index.html"><img src="Images/logo_Computeristic2-removebg.png" alt="Computeristic logo" width="125"></a>
+          <a id="logo" href="index.html"><img src="Images/logo_Computeristic2-removebg.png" alt="Computeristic logo" width="125"></a>
         <span>
-            <input id="search" type="search" placeholder="Search"/>
+            <input id="search" class="w3-hide-small" type="search" placeholder="Search"/>
+            <a href="#">
+              <img class="w3-hide-large" src="Images/Search-icon.png" alt="Searh" width="23"/>
+            </a>
         </span>
+        <input id="search-small" class="w3-hide-large w3-hide-medium" type="search" placeholder="Search"/>
 
         <a id="shopping-cart" href="Assignment.html"><img src="Images/shopping-cart-of-checkered-design.png" alt="shopping-cart" width="25" /></a>
         <a id="account-icon" href="#"><img src="Images/account-icon.png"  alt="Account" width="25" /></a>
@@ -38,23 +43,29 @@
 
     <!--This is where the nav bar is-->
     <nav>
-      <div name="nav-bar" class="w3-bar w3-green">
-        <button id="computer-nav-button" class="w3-bar-item w3-button w3-hover-blue">Computers</button>
+      <div name="nav-bar-large" class="w3-bar w3-green w3-hide-small">
+        <button class="w3-bar-item w3-button w3-hover-blue">Computers</button>
         <button class="w3-bar-item w3-button w3-hover-blue">Laptops</button>
         <button class="w3-bar-item w3-button w3-hover-blue">Accessories</button>
+      </div>
+
+      <div name="nav-bar-small" class="w3-bar w3-green w3-hide-large w3-hide-medium w3-center">
+        <button class="w-bar-item w3-button w3-block">Computer</button>
+        <button class="w-bar-item w3-button w3-block">Laptops</button>
+        <button class="w-bar-item w3-button w3-block">Accessories</button>
       </div>
     </nav>
 
     <!--this is where all the products are going to be-->
     <section>
-      <div name="todays-deals" class="w3-mobile">
+      <div name="todays-deals" class="w3-mobile w3-section">
         <h2 id="todays deals">Today's Deals</h2>
 
-        <div name="Desktops" class="w3-mobile">    
-          <h6 class="product-header"><a href="#" class="product-header">Desktops &gt;</a></h6>
+        <div name="Desktops" class="w3-mobile w3-container">    
+          <h5 class="product-header"><a href="#" class="product-header">Desktops &gt;</a></h5>
 
-          
-          <div class=" w3-container w3-cell products-background" id="Acer-Nitro-50-N50-600-EB14">
+        
+          <div class=" w3-container w3-cell w3-hover-shadow w3-center w3-col s3" id="Acer-Nitro-50-N50-600-EB14">
             <a href="#" class="products">
               <img src="Images/products/Acer-Nitro-50-N50-600-EB14 (2).png" alt="Acer-Nitro-50-N50-600-EB14" width="100"/>
               <p>
@@ -68,8 +79,9 @@
               </p>
             </a>
           </div>
+        
 
-          <div class="w3-container w3-cell">
+          <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" id="Acer-Predator-Orion-3000-PO3-600-Gaming-Desktop" class="products">
               <img src="Images/products/Acer-Predator-Orion-3000-PO3-600-Gaming-Desktop.png" alt="Acer-Predator-Orion-3000-PO3-600-Gaming-Desktop" width="175" />
               <p>
@@ -84,7 +96,7 @@
             </a>
           </div>
 
-          <div class="w3-container w3-cell" >
+          <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3" >
             <a href="#" class="products">
               <img src="Images/products/Acer-TC-885-EB11.png" alt="Acer-TC-885-EB11" width="125"/>
               <p>
@@ -98,7 +110,7 @@
             </a>
           </div>
 
-          <div class="w3-container w3-cell">
+          <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" class="products">
               <img src="Images/products/ASUS-Strix-Gaming-PC.png" alt="ASUS-Strix-Gaming-PC" width="130"/>
               <p>
@@ -115,10 +127,10 @@
 
         </div>
 
-        <div name="Laptops" class="w3-mobile">
-          <h6 class="product-header"><a href="#" class="product-header">Laptops &gt;</a></h6>
+        <div name="Laptops" class="w3-mobile w3-container">
+          <h5 class="product-header"><a href="#" class="product-header">Laptops &gt;</a></h5>
 
-          <div class="w3-container w3-cell">
+          <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" class="products">
               <img src="Images/products/ASUS-C523NA-DH02-Chromebook-15.6-HD.png" alt="ASUS-C523NA-DH02-Chromebook-15.6-HD" width="120"/>
               <p>
@@ -133,9 +145,12 @@
             </a>
           </div>
 
-          <div class="w3-container w3-cell">
+          <div  id="inspiron" class="w3-display-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" class="products">
               <img src="inspiron.png" alt="inspiron" width="135"/>
+              <div class="w3-display-middle w3-display-hover">
+                <button id="Add-To-Cart" class="w3-button w3-hover-teal w3-blue">Add to Cart</button>
+              </div>
               <p>
                 Inspiron, 256GB SSD, AMD<br/>
                 Ryzen, 8GB RAM, Windows<br/>
@@ -147,7 +162,7 @@
             </a>
           </div>
 
-          <div class="w3-container w3-cell">
+          <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" class="products">
               <img src="Images/products/ASUS-Chromebook-11.6-intel-Celeron-N4000.png" alt="ASUS-Chromebook-11.6-intel-Celeron-N4000" width="145" />
               <p>
@@ -161,7 +176,7 @@
             </a>
           </div>
 
-          <div class="w3-container w3-cell">
+          <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" class="products">
               <img src="Images/products/ASUS-flip-C436-2-in-1-Chromebook-14-touchscreen-FHD.png" alt="ASUS-flip-C436-2-in-1-Chromebook-14-touchscreen-FHD" width="185" />
               <p>
@@ -178,10 +193,10 @@
 
         </div>
 
-        <div name="Accessories" class="w3-mobile">
-          <h6 class="product-header"><a href="#" class="product-header">Accessories &gt;</a></h6>
+        <div name="Accessories" class="w3-mobile w3-container">
+          <h5 class="product-header"><a href="#" class="product-header">Accessories &gt;</a></h5>
 
-          <div class="w3-container w3-cell">
+          <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" class="products">
               <img src="Images/products/Corsair-CP-9020179-NA-RMX-Series-RM750x-80-Plus-Gold-ATX-Power-Supply.png" alt="Corsair-CP-9020179-NA-RMX-Series-RM750x-80-Plus-Gold-ATX-Power-Supply" width="120" />
               <p>
@@ -195,7 +210,7 @@
             </a>
           </div>
 
-          <div class="w3-container w3-cell">
+          <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" class="products">
               <img src="Images/products/Kingston-HyperXFury-16GB-3200MHz-DDR4.png" alt="Kingston-HyperXFury-16GB-3200MHz-DDR4" width="125" />
               <p>
@@ -208,7 +223,7 @@
             </a>
           </div>
 
-          <div class="w3-container w3-cell">
+          <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" class="products">
               <img src="Images/products/Seagate-Portable-2TB-External-Hard-Drive-Portable-HDD.png" alt="Seagate-Portable-2TB-External-Hard-Drive-Portable-HDD" width="115" />
               <p>
@@ -223,7 +238,7 @@
             </a>
           </div>
 
-          <div class="w3-container w3-cell">
+          <div class="w3-container w3-cell w3-hover-shadow w3-center w3-col s3">
             <a href="#" class="products">
             <img src="Images/products/upHere-120mm-3-Pack-Computer-case-Fan-Rainbow-LED.png" alt="upHere-120mm-3-Pack-Computer-case-Fan-Rainbow-LED" width="125" />
             <p>

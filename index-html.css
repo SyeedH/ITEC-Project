@@ -62,15 +62,14 @@ a > p {
     border-color: black;
 }
 
-.products-background:hover{
-background-color: #E3DAD7;
-    
-}
 
-a {
+a.products {
     text-decoration: none;
+    display: block;
 }
 
-
+#inspiron:hover{
+    opacity: 70%;
+}
 
 
