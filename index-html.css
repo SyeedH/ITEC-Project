@@ -43,7 +43,7 @@ a > p {
 }
 
 .product-header:hover{
-    color:blue;
+    color: #00cccc ;
 }
 
 .item-price{
@@ -137,5 +137,11 @@ a.products {
     border-style: solid;
 }
 
+.hover-color:hover{
+    color: #85ffff ;
+}
 
-
+a.footer-underline{
+    text-decoration: none !important;
+    display: block;
+}
