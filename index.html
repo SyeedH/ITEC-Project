@@ -17,14 +17,13 @@
   <body>
     <!--this is the top bar of the page-->
     <header>
-      <div name="top-bar-large" class="w3-container w3-theme-top-bar w3-mobile w3-row-padding">
+      <div name="top-bar-large" class="w3-container top-bar-color w3-mobile w3-row-padding">
         
         <div class="w3-dropdown-click">
-          <button id="hamburger-icon" onclick="myFunction()" class="w3-button"><img src="Images/hamburger-menu-new.png" alt="Menu" width="25"/></button>
+          <button id="hamburger-icon" onclick="myFunction()" class="w3-button medium-teal-hover">
+            <img src="Images/hamburger-menu-new.png" alt="Menu" width="25"/>
+          </button>
 
-          <div id="hamburger-dropdown" class="w3-dropdown-content w3-bar-block w3-animate-left">
-            <a href="#" class="w3-bar-item w3-button">Computers</a>
-          </div>
         </div>
 
           <a id="logo" href="index.html"><img src="Images/logo_Computeristic2-removebg.png" alt="Computeristic logo" width="125"></a>
@@ -36,20 +35,26 @@
         </span>
         <input id="search-small" class="w3-hide-large w3-hide-medium" type="search" placeholder="Search"/>
 
-        <a id="shopping-cart" href="Assignment.html"><img src="Images/shopping-cart-of-checkered-design.png" alt="shopping-cart" width="25" /></a>
-        <a id="account-icon" href="#"><img src="Images/account-icon.png"  alt="Account" width="25" /></a>
+        <a id="shopping-cart" href="Assignment.html">
+          <img src="Images/shopping-cart-of-checkered-design.png" alt="shopping-cart" width="25" />
+        </a>
+
+
+        <a id="account-icon" href="#">
+          <img src="Images/account-icon.png"  alt="Account" width="25" />
+        </a>
       </div>
     </header>
 
     <!--This is where the nav bar is-->
     <nav>
-      <div name="nav-bar-large" class="w3-bar w3-theme-nav-bar w3-hide-small">
-        <button class="w3-bar-item w3-button w3-hover-blue">Computers</button>
-        <button class="w3-bar-item w3-button w3-hover-blue">Laptops</button>
-        <button class="w3-bar-item w3-button w3-hover-blue">Accessories</button>
+      <div name="nav-bar-large" class="w3-bar nav-bar-color w3-hide-small">
+        <button class="w3-bar-item w3-button medium-teal-hover">Computers</button>
+        <button class="w3-bar-item w3-button medium-teal-hover">Laptops</button>
+        <button class="w3-bar-item w3-button medium-teal-hover">Accessories</button>
       </div>
 
-      <div name="nav-bar-small" class="w3-bar w3-green w3-hide-large w3-hide-medium w3-center">
+      <div name="nav-bar-small" class="w3-bar nav-bar-color w3-hide-large w3-hide-medium w3-center">
         <button class="w-bar-item w3-button w3-block">Computer</button>
         <button class="w-bar-item w3-button w3-block">Laptops</button>
         <button class="w-bar-item w3-button w3-block">Accessories</button>
@@ -74,8 +79,8 @@
           </div>
         </a>
        
-        <button class="w3-button w3-black w3-display-left ">&lsaquo;</button>
-        <button class="w3-button w3-black w3-display-right">&rsaquo;</button>
+        <button class="w3-button dark-teal medium-teal-hover w3-display-left ">&lsaquo;</button>
+        <button class="w3-button dark-teal medium-teal-hover w3-display-right">&rsaquo;</button>
       </div>
 
       <br/>
@@ -172,7 +177,7 @@
             <a href="#" class="products">
               <img src="inspiron.png" alt="inspiron" width="135"/>
               <div class="w3-display-middle w3-display-hover">
-                <button id="Add-To-Cart" class="w3-button w3-hover-teal w3-blue">Add to Cart</button>
+                <button id="Add-To-Cart" class="w3-button dark-teal-hover w3-blue">Add to Cart</button>
               </div>
               <p>
                 Inspiron, 256GB SSD, AMD<br/>
@@ -280,14 +285,14 @@
       </div>
 
       <div name="pages" class="w3-mobile w3-bar w3-center">
-        <a href="#" class="w3-button w3-hover-blue">&laquo;</a>
-        <a href="#" class="w3-button w3-hover-blue">1</a>
-        <a href="#" class="w3-button w3-hover-blue">2</a>
-        <a href="#" class="w3-button w3-hover-blue">3</a>
-        <a href="#" class="w3-button w3-hover-blue">4</a>
-        <a href="#" class="w3-button w3-hover-blue">5</a>
+        <a href="#" class="w3-button dark-teal-hover">&laquo;</a>
+        <a href="#" class="w3-button dark-teal-hover">1</a>
+        <a href="#" class="w3-button dark-teal-hover">2</a>
+        <a href="#" class="w3-button dark-teal-hover">3</a>
+        <a href="#" class="w3-button dark-teal-hover">4</a>
+        <a href="#" class="w3-button dark-teal-hover">5</a>
         <p class="w3-button">...</p>
-        <a href="#" class="w3-button w3-hover-blue">&raquo;</a>
+        <a href="#" class="w3-button dark-teal-hover">&raquo;</a>
 
       </div>
     </section>
