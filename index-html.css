@@ -76,4 +76,17 @@ a.products {
     text-align: center;
 }
 
+.product-images{
+    max-width: 100%;
 
+}
+
+.right-of-image{
+    position: absolute;
+    top: 100pt;
+    right: 75pt;
+}
+
+.New-product{
+    background-color: #FF5C5C;
+}
