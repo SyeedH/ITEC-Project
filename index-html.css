@@ -88,15 +88,48 @@ a.products {
 }
 
 .New-product{
-    background-color: #FF5C5C;
+
 }
 
-.w3-theme-top-bar{
+.top-bar-color{
     color:#fff !important; 
     background-color:#006666 !important
 }
 
-.w3-theme-nav-bar {
+.nav-bar-color {
     color:#fff !important; 
     background-color:#008080 !important
 }
+
+.dark-teal{
+    color:#fff !important;
+    background-color: #004040 !important;
+}
+
+.medium-teal{
+    color:#fff !important; 
+    background-color:#00cccc !important
+}
+
+.light-teal {
+    color:#000 !important; 
+    background-color:#66ffff !important
+}
+
+.dark-teal-hover:hover{
+    color:#fff !important;
+    background-color: #004040 !important;
+}
+
+.medium-teal-hover:hover{
+    color:#fff !important;
+    background-color: #00cccc !important;
+}
+
+.light-teal-hover:hover {
+    color:#000 !important; 
+    background-color:#66ffff !important
+}
+
+
+
