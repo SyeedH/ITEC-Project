@@ -84,8 +84,11 @@ a.products {
 
 .product-images{
     max-width: 100%;
-
 }
+
+img {
+   max-width: 100%;
+  }
 
 .right-of-image{
     position: absolute;
