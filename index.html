@@ -21,26 +21,28 @@
         
         <div class="w3-dropdown-click">
           <button id="hamburger-icon" onclick="myFunction()" class="w3-button border-hover">
-            <img src="Images/hamburger-menu-new.png" alt="Menu" width="25"/>
+            <img class="w3-hide-small" src="Images/hamburger-menu-new.png" alt="Menu" width="25"/>
+            <img class="w3-hide-large w3-hide-medium"src="Images/hamburger-menu-new.png" alt="Menu" width="20"/>
           </button>
 
         </div>
 
-          <a id="logo" href="index.html"><img class="border-hover" src="Images/logo_Computeristic2-removebg.png" alt="Computeristic logo" width="125"></a>
+          <a id="logo" href="index.html"><img class="border-hover w3-hide-small" src="Images/Computeristic-logo-final2.png" alt="Computeristic logo" width="150"></a>
+          <a id="logo" href="index.html"><img class="border-hover w3-hide-large w3-hide-medium" src="Images/Computeristic-logo-final2.png" alt="Computeristic logo" width="85"></a>
         <span>
             <input id="search" class="w3-hide-small" type="search" placeholder="Search"/>
+            <input id="search-small" class="w3-hide-large w3-hide-medium" type="search" placeholder="Search"/>
             <a href="#">
               <img class="w3-hide-large border-hover" src="Images/Search-icon.png" alt="Searh" width="23"/>
             </a>
         </span>
-        <input id="search-small" class="w3-hide-large w3-hide-medium" type="search" placeholder="Search"/>
 
         <a id="shopping-cart" href="Assignment.html">
           <img class="border-hover" src="Images/shopping-cart-of-checkered-design.png" alt="shopping-cart" width="25" />
         </a>
 
 
-        <a id="account-icon" href="#">
+        <a id="account-icon" class="w3-hide-small" href="#">
           <img class="border-hover" src="Images/account-icon.png"  alt="Account" width="25" />
         </a>
       </div>
@@ -68,7 +70,7 @@
         <h2>New Products</h2>
         <a href="#" class="products">
           <img class="mySlides w3-center product-images" src="Images/products/Acer-Nitro-23.8-165hz.png" alt="Acer-Nitro-23.8-165hz" width="350" />
-          <div class="right-of-image">
+          <div class="right-of-image w3-hide-small">
             <p>
               Acer Nitro 23.8<br/> 
               165hz vsync enabled<br/>  
@@ -77,6 +79,17 @@
             </p>
             <p class="item-price"> CDN &#36;299<sup>&#46;99</sup></p>
           </div>
+
+          <div class="under-image w3-hide-large w3-hide-medium">
+            <p>
+              Acer Nitro 23.8<br/> 
+              165hz vsync enabled<br/>  
+              and good for gaming<br/> 
+             
+            </p>
+            <p class="item-price"> CDN &#36;299<sup>&#46;99</sup></p>
+          </div>
+
         </a>
        
         <button class="w3-button dark-teal medium-teal-hover w3-display-left ">&lsaquo;</button>
