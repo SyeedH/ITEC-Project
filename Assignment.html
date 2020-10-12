@@ -11,14 +11,14 @@
     <!-- this is where all the links for the CSS code will go-->
   	<link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="index-html.css">
   </head>
 
   <body>
     <!--this is the top bar of the page-->
     <header>
       <div name="top-bar-large" class="w3-container top-bar-color w3-mobile w3-row-padding">
-        
+         <div class="a">
         <div class="w3-dropdown-click">
           <button id="hamburger-icon" onclick="myFunction()" class="w3-button border-hover">
             <img src="Images/hamburger-menu-new.png" alt="Menu" width="25"/>
@@ -48,27 +48,32 @@
     </header>
 
     <!--This is where the nav bar is-->
+
     <nav>
       <div name="nav-bar-large" class="w3-bar nav-bar-color w3-hide-small">
+	  	<div class="a">
         <button class="w3-bar-item w3-button medium-teal-hover">Computers</button>
         <button class="w3-bar-item w3-button medium-teal-hover">Laptops</button>
         <button class="w3-bar-item w3-button medium-teal-hover">Accessories</button>
       </div>
+	  </div>
 
       <div name="nav-bar-small" class="w3-bar nav-bar-color w3-hide-large w3-hide-medium w3-center">
+
         <button class="w-bar-item w3-button w3-block">Computer</button>
         <button class="w-bar-item w3-button w3-block">Laptops</button>
         <button class="w-bar-item w3-button w3-block">Accessories</button>
       </div>
     </nav>
-
+ </div >
+		
     <!--this is where all the products are going to be-->
     <section>
 
       <div name="New-products" class="w3-content w3-center w3-display-container w3-mobile New-product">
-        <h2>New Products</h2>
+      
         <a href="#" class="products">
-          <img class="mySlides w3-center products-images" src="Images/products/Acer-Nitro-23.8-165hz.png" alt="Acer-Nitro-23.8-165hz" width="350" />
+          <img class="mySlides w3-center products-images" src="banner.img" width="350" />
           <div class="right-of-image">
            
             </p>
@@ -76,8 +81,7 @@
           </div>
         </a>
        
-        <button class="w3-button dark-teal medium-teal-hover w3-display-left ">&lsaquo;</button>
-        <button class="w3-button dark-teal medium-teal-hover w3-display-right">&rsaquo;</button>
+       
       </div>
 
       <br/>
@@ -98,32 +102,33 @@
 
 <p1 class="item-price"style="float:right;padding: 0px 70px 0px 0px"class="item-price"/>  CDN $799.99<sup>.99</sup></p1>
 <form action="/action_page.php">
-  <p style="font-size:20px">Please select your configuration:</p>
-  <input type="radio" id="male" name="gender" value="male">
-  <label for="male">Male</label><br>
-  <input type="radio" id="female" name="gender" value="female">
-  <label for="female">Female</label><br>
-  <input type="radio" id="other" name="gender" value="other">
-  <label for="other">Other</label>
-<br><br>
+
+<form action="/action_page.php">
+  <label for="Package">Choose a Package:</label>
+  <select name="Package" id="Package">
+    <option value="4600">Ryzen S4600H, 8GB RAM, 250 GB SSD</option>
+    <option value="4700H">Ryzen 4700H, 16GB RAM, 500 GB SSD</option>
+    <option value="4750H">Ryzen 4750H, 16GB RAM, 1TB SSD</option>
+   
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+  
+<br><br><br><br><br>
 
 <div class="center">
 <p7>			Customers also looked at: </p7>
 </div>
 
-
-
-
-
-
-
 </head>
-<body>
+
 
 <div class="row" width: 100%;>
   <div class="column">
-   <div class="card w3-hover-shadow w3-border w3-hover-border-teal">
-	<img src="inspiron.png"class="responsive" width="100" height="100"/>
+   <div class=" w3-container w3-hover-shadow w3-center w3-col  w3-border w3-hover-border-teal">
+	<img src="inspiron.png"/>
       <h3 style="font-size:20px">Acer TC-885-EB11</h3>
       <p style="font-size:15px">1TB SSD,AMD Ryzen,8GB RAM, Windows 10</p>
      <p class="item-price">
@@ -133,8 +138,8 @@
   </div>
 
   <div class="column">
-   <div class="card w3-hover-shadow w3-border w3-hover-border-teal">
-<img src="inspiron.png"class="responsive" width="100" height="100"/>
+   <div class=" w3-container  w3-hover-shadow w3-center w3-col  w3-border w3-hover-border-teal">
+<img src="inspiron.png"/>
        <h3 style="font-size:20px">Acer Strix Gaming PC</h3>
 	   <p style="font-size:15px">
       2TB SDD, AMD Ryzen,
@@ -147,8 +152,8 @@
   </div>
   
   <div class="column">
-    <div class="card w3-hover-shadow w3-border w3-hover-border-teal">
-<img src="inspiron.png"class="responsive" width="100" height="100"/>
+    <div class=" w3-container w3-hover-shadow w3-center w3-col  w3-border w3-hover-border-teal">
+<img src="inspiron.png"/>
        <h3 style="font-size:20px">ASUS-C523NA  Chromebook</h3>
 	   <p style="font-size:15px">
       1TB HDD, INTEL i7,
@@ -159,8 +164,8 @@
   </div>
   
   <div class="column">
-    <div class="card w3-hover-shadow w3-border w3-hover-border-teal">
-<img src="inspiron.png"class="responsive" width="100" height="100"/>
+    <div class=" w3-container w3-hover-shadow w3-center w3-col  w3-border w3-hover-border-teal">
+<img src="inspiron.png"/>
        <h3 style="font-size:20px">ASUS Flip C436 2-in-1</h3>
       <p>FHD Display, 1TB SSD, 12GB RAM,<br/>
                 Windows 10</p>
@@ -179,14 +184,7 @@
  <button class="button button1">Proceed to Checkout</button>
 </div>
  
-
- 
  <br>
- 
- 
- 
-
-
   </body>
   
    
