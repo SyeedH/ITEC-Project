@@ -158,9 +158,8 @@ a.footer-underline{
 
 
 body {	
- font : "Times New Roman";	
-background-image: url("background.jpg");	
- background-color: #cccccc;
+ font : "Times New Roman";		
+ /*background-color: #cccccc;*/
  font-family: Arial, Helvetica, sans-serif;	
   	
 }
