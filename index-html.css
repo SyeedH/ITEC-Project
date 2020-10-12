@@ -92,13 +92,15 @@ a.products {
 }
 
 .top-bar-color{
-    color:#fff !important; 
-    background-color:#006666 !important
+   /* color:#fff !important; 
+    background-color:#006666 !important */
+    background: linear-gradient(to bottom, #008080 25%, #339966 100%) !important;
 }
 
 .nav-bar-color {
-    color:#fff !important; 
-    background-color:#008080 !important
+   /* color:#fff !important; 
+    background-color:#008080 !important */
+    background: linear-gradient(to top, #008080 10%, #339966 65%) !important;
 }
 
 .dark-teal{
