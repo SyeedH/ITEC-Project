@@ -3,7 +3,13 @@
  CSS index.html code
 
 ****************************************************************************************/ 
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
 
+.products-font-size{
+    font-size: 1.15em;
+}
 #logo {
     max-width: 100%;
 }
@@ -11,18 +17,17 @@
 #search{
     width: 50%;
     max-width: 100%;
-    margin-left: 25pt;
+    margin-left: 0.1em;
 }
 
 #shopping-cart{
     max-width: 100%;
-    margin-left: 30pt;
-    margin-bottom: 20pt;
+    margin-left: 2.5em;
 }
 
 #account-icon{
     max-width: 100%;
-    margin-left: 20pt;
+    margin-left: 2.5em;
 
 }
 
@@ -31,7 +36,7 @@
 }
 
 a > p {
-    padding-left: 10pt;
+    padding-left: 0.1em;
 }
 
 .product-header{    
@@ -56,15 +61,6 @@ a > p {
     color:purple;
 }
 
-.products-background{
-    box-shadow: 6pt;
-    border-radius: 10%;
-    border-width: 10pt;
-    border-top: 10pt;
-    border-color: black;
-}
-
-
 a.products {
     text-decoration: none;
     display: block;
@@ -78,24 +74,13 @@ a.products {
     text-align: center;
 }
 
-.product-images{
-    max-width: 100%;
-}
-
 img {
    max-width: 100%;
+   height: auto;
   }
 
-.right-of-image{
-    position: absolute;
-    top: 100pt;
-    right: 75pt;
-}
-
-.under-image{
-    position: absolute;
-    top:235pt;
-    right: 25pt;
+.computer-image{
+    float: center;
 }
 
 .top-bar-color{
@@ -141,7 +126,7 @@ img {
 }
 
 .border-hover:hover{
-    border-width: 1pt !important;
+    border-width: 0.15em !important;
     border-color: #fff !important;
     border-style: solid;
 }
@@ -156,7 +141,7 @@ a.footer-underline{
 }
 
 .New-product{
-    background-color: #DBDBDB;
+    background-color: #F0F0F0;
 }
 /*******************************************************************************************************
 
