@@ -143,6 +143,19 @@ a.footer-underline{
 .New-product{
     background-color: #F0F0F0;
 }
+
+.star-sizes{
+    font-size: 1.2em;
+}
+
+.filled-star{
+    color: orange;
+}
+
+#nav-bar-large{
+    display:inline-block;
+    list-style-type: none;
+}
 /*******************************************************************************************************
 
  CSS for cart.html 
