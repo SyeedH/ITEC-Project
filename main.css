@@ -85,13 +85,12 @@ img {
 
 .top-bar-color{
    color:#fff !important; 
-    /*background-color:#006666 !important */
     background: linear-gradient(to bottom, #008080 25%, #339966 100%) !important;
 }
 
 .nav-bar-color {
    color:#fff !important; 
-    /*background-color:#008080 !important */
+   
     background: linear-gradient(to top, #008080 10%, #339966 65%) !important;
 }
 
@@ -116,7 +115,7 @@ img {
 }
 
 .medium-teal-hover:hover{
-    color:#fff !important;
+    color:black !important;
     background-color: #00cccc !important;
 }
 
@@ -156,6 +155,29 @@ a.footer-underline{
     display:inline-block;
     list-style-type: none;
 }
+
+ul{
+    list-style-type: none;
+    align-items: center;
+    display:block;
+    position: relative;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    overflow: auto;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display:block;
+    text-decoration: none;
+    padding: 1.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
 /*******************************************************************************************************
 
  CSS for cart.html 
