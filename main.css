@@ -10,6 +10,7 @@
 .products-font-size{
     font-size: 1.15em;
 }
+
 #logo {
     max-width: 100%;
 }
@@ -46,10 +47,12 @@
     float:none;
 }
 
+/*This is for padding most of the products description*/
 a > p {
     padding-left: 0.1em;
 }
 
+/* This CSS code is for the products*/
 .product-header{    
     text-decoration: none;
     color: grey;
@@ -64,10 +67,6 @@ a > p {
     color: #00cccc ;
 }
 
-.item-price{
-    color:#FF5C5C;
-}
-
 .products:visited{
     color:purple;
 }
@@ -77,23 +76,33 @@ a.products {
     display: block;
 }
 
+/*Universal price colour*/
+.item-price{
+    color:#FF5C5C;
+}
+
+/* This is out main product and this sets it opacity to 70% when hovered*/
 #inspiron:hover{
     opacity: 70%;
 }
+
 
 #todays-deals{
     text-align: center;
 }
 
+/*Universal for all images, allowing responsiveness*/
 img {
    max-width: 100%;
    height: auto;
   }
 
+  /*This is for the banner image which is a computer*/
 .computer-image{
     float: center;
 }
 
+/*Colors for different things*/
 .top-bar-color{
    color:#fff !important; 
     background: linear-gradient(to bottom, #008080 25%, #339966 100%) !important;
@@ -135,6 +144,7 @@ img {
     background-color:#66ffff !important
 }
 
+/*Used on the nav bar when certain things are hovered over to give feed back*/
 .border-hover:hover{
     border-width: 0.15em !important;
     border-color: #fff !important;
@@ -145,15 +155,18 @@ img {
     color: #85ffff ;
 }
 
+/*This removes the underline from the footer elements*/
 a.footer-underline{
     text-decoration: none !important;
     display: block;
 }
 
+/*sets background colour for the new products section*/
 .New-product{
     background-color: #F0F0F0;
 }
 
+/*For the review star*/
 .star-sizes{
     font-size: 1.2em;
 }
@@ -162,6 +175,7 @@ a.footer-underline{
     color: orange;
 }
 
+/*Creating the nav bar*/
 #nav-bar-large{
     display:inline-block;
     list-style-type: none;
@@ -189,6 +203,7 @@ li.nav-bar-list a{
     padding-bottom: 0.5em;
 }
 
+/*Creating the add to cart button which may not be needed*/
 .AddToCartButton{
     background-color: #0080FF;
     border: none;
