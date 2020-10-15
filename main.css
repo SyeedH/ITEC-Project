@@ -189,6 +189,18 @@ li a{
     padding-bottom: 0.5em;
 }
 
+.AddToCartButton{
+    background-color: #0080FF;
+    border: none;
+    color: white;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
 /*******************************************************************************************************
 
  CSS for cart.html 
