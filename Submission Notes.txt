@@ -1,7 +1,0 @@
-Submission Notes:
--Bottom pics are INTENTIONALLY not included (ie they're intentionally mislinked) so as to show the result
--Radio buttons were unlinked as I was playing with them for fun and they kept trying to send
-data...which crashes the page obviously. The intended behavior is you add the product from the main page, get sent to your cart 
-where you can select package options and then proceed to final checkout. There WAS going to be a product quantity as well, but it didn't
-look as I'd hoped so I took it back out.
--My partner had far too much time.... there are more revisions for the logo than I made for my gender and the law final essay last year.
