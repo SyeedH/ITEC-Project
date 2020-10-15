@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="w3-mobile">
   <head>
     <title>Computeristic</title>
     <!--About this page -->
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1">
-    <meta name="authors" content="Karanvir Boparai and Syeed HamidS">
+    <meta name="authors" content="Karanvir Boparai and Hamid Syeed">
     <meta name="description" content="We sell electronics mostly computers and laptops and there accessories">
     <meta name="keywords" content="computers, computeristic, laptops, store">
+
     <!-- this is where all the links for the CSS code will go-->
-  	<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
 
@@ -20,51 +20,57 @@
       <div name="top-bar-large" class="w3-container top-bar-color w3-mobile w3-row-padding a">
         
         <div class="w3-dropdown-click">
-          <button id="hamburger-icon" onclick="myFunction()" class="w3-button border-hover">
-            <img src="Images/hamburger-menu-new.png" alt="Menu" width="25"/>
+          <button id="hamburger-icon" onclick="myFunction()" class="w3-button border-hover medium-teal-hover">
+            <img class="w3-hide-small" src="Images/hamburger-menu-new.png" alt="Menu" width="25"/>
+            <img class="w3-hide-large w3-hide-medium"src="Images/hamburger-menu-new.png" alt="Menu" width="20"/>
           </button>
 
         </div>
 
-          <a id="logo" href="index.html"><img class="border-hover" src="Images/logo_Computeristic2-removebg.png" alt="Computeristic logo" width="125"></a>
+          <a id="logo" href="index.html"><img class="border-hover w3-hide-small w3-hide-medium" src="Images/Computeristic-logo-final2.png" alt="Computeristic logo" width="135"></a>
+          <a id="logo" href="index.html"><img class="border-hover w3-hide-large" src="Images/Computeristic-logo-final2.png" alt="Computeristic logo" width="85"></a>
         <span>
+    
+          <span>
             <input id="search" class="w3-hide-small" type="search" placeholder="Search"/>
+            <input  id="search-button" class="w3-hide-small w3-hide-medium" type="image"alt="Search" src="Images/Search-icon.png"/>
+          </span>
+     
+            <!--
             <a href="#">
-              <img class="w3-hide-large border-hover" img src="Search-icon" alt="Search" width="23"/>
+              <img id="search-button" class="border-hover" src="Images/Search-icon.png" alt="Search" width="23"/>
+            </a>
+          -->
+            <input id="search-small" class="w3-hide-large w3-hide-medium" type="search" placeholder="Search"/>
+            <a href="#">
+              <img class="w3-hide-large border-hover" src="Images/Search-icon.png" alt="Search" width="23"/>
             </a>
         </span>
-        <input id="search-small" class="w3-hide-large w3-hide-medium" type="search" placeholder="Search"/>
-
-        <a id="shopping-cart" href="Assignment.html">
-          <img class="border-hover" src="Images/shopping-cart-of-checkered-design.png" alt="shopping-cart" width="25" />
+        
+        <a id="shopping-cart" href="Cart.html">
+          <img class="border-hover" src="Images/shopping-cart-of-checkered-design.png" alt="Cart" width="25" />
         </a>
 
 
-        <a id="account-icon" href="#">
+        <a id="account-icon" class="w3-hide-small w3-hide-medium" href="#">
           <img class="border-hover" src="Images/account-icon.png"  alt="Account" width="25" />
         </a>
       </div>
     </header>
 
-    <!--This is where the nav bar is-->
+  <!--This is where the nav bar-->
 
-    <nav>
-      <div name="nav-bar-large" class="w3-bar nav-bar-color w3-hide-small">
-	  	<div class="a">
-        <button class="w3-bar-item w3-button medium-teal-hover">Computers</button>
-        <button class="w3-bar-item w3-button medium-teal-hover">Laptops</button>
-        <button class="w3-bar-item w3-button medium-teal-hover">Accessories</button>
+    <nav class="w3-hide-small nav-bar-color w3-mobile w3-bar">
+      <div>
+        <ul class="nav-bar">
+          <li class="nav-bar-list"><a href="#" class="medium-teal-hover"><span class="nav-bar-item">Computer</span></a></li>
+          <li class="nav-bar-list"><a href="#" class="medium-teal-hover"><span class="nav-bar-item">Laptops</span></a></li>
+          <li class="nav-bar-list"><a href="#" class="medium-teal-hover"><span class="nav-bar-item">Accessories</span></a></li>
+          <li class="nav-bar-list"><a href="#" id="About" style="float:right;" class="medium-teal-hover"><span class="nav-bar-item">About</span></a></li>
+        </ul>
       </div>
-	  </div>
-
-      <div name="nav-bar-small" class="w3-bar nav-bar-color w3-hide-large w3-hide-medium w3-center">
-		  	<div class="a">
-        <button class="w-bar-item w3-button w3-block">Computer</button>
-        <button class="w-bar-item w3-button w3-block">Laptops</button>
-        <button class="w-bar-item w3-button w3-block">Accessories</button>
-      </div>
-	  
     </nav>
+
  </div >
 		
     <!--this is where all the products are going to be-->
@@ -167,7 +173,7 @@ All packages include:
 <div class="row" width: 100%;>
   <div class="column">
    <div class=" w3-container w3-hover-shadow w3-center w3-col  w3-border w3-hover-border-teal">
-  <img src="Images/products/Acer-Nitro-23.8-165hz.png" alt="Acer-Nitro-23.8-165hz" width="350" class="products-images" width="auto" height="auto"/>
+  <img src="Images/products/Acer-Nitro-23.8-165hz.png" alt="Acer-Nitro-23.8-165hz"  class="products-images" width="auto" height="auto"/>
       <h3 style="font-size:20px">Acer TC-885-EB11</h3>
       <p style="font-size:15px">1TB SSD,AMD Ryzen,8GB RAM, Windows 10</p>
      <p class="item-price">
@@ -302,4 +308,4 @@ All packages include:
 -->
     </footer>
   </body>
-</html
+</html>
