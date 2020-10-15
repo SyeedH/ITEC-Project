@@ -20,27 +20,39 @@
       <div name="top-bar-large" class="w3-container top-bar-color w3-mobile w3-row-padding a">
         
         <div class="w3-dropdown-click">
-          <button id="hamburger-icon" onclick="myFunction()" class="w3-button border-hover">
-            <img src="Images/hamburger-menu-new.png" alt="Menu" width="25"/>
+          <button id="hamburger-icon" onclick="myFunction()" class="w3-button border-hover medium-teal-hover">
+            <img class="w3-hide-small" src="Images/hamburger-menu-new.png" alt="Menu" width="25"/>
+            <img class="w3-hide-large w3-hide-medium"src="Images/hamburger-menu-new.png" alt="Menu" width="20"/>
           </button>
 
         </div>
 
-          <a id="logo" href="index.html"><img class="border-hover" src="Images/logo_Computeristic2-removebg.png" alt="Computeristic logo" width="125"></a>
+          <a id="logo" href="index.html"><img class="border-hover w3-hide-small w3-hide-medium" src="Images/Computeristic-logo-final2.png" alt="Computeristic logo" width="135"></a>
+          <a id="logo" href="index.html"><img class="border-hover w3-hide-large" src="Images/Computeristic-logo-final2.png" alt="Computeristic logo" width="85"></a>
         <span>
+    
+          <span>
             <input id="search" class="w3-hide-small" type="search" placeholder="Search"/>
+            <input  id="search-button" class="w3-hide-small w3-hide-medium" type="image"alt="Search" src="Images/Search-icon.png"/>
+          </span>
+     
+            <!--
             <a href="#">
-              <img class="w3-hide-large border-hover" src="Images/Search-icon.png" alt="Searh" width="23"/>
+              <img id="search-button" class="border-hover" src="Images/Search-icon.png" alt="Search" width="23"/>
+            </a>
+          -->
+            <input id="search-small" class="w3-hide-large w3-hide-medium" type="search" placeholder="Search"/>
+            <a href="#">
+              <img class="w3-hide-large border-hover" src="Images/Search-icon.png" alt="Search" width="23"/>
             </a>
         </span>
-        <input id="search-small" class="w3-hide-large w3-hide-medium" type="search" placeholder="Search"/>
-
-        <a id="shopping-cart" href="Assignment.html">
+        
+        <a id="shopping-cart" href="Cart.html">
           <img class="border-hover" src="Images/shopping-cart-of-checkered-design.png" alt="shopping-cart" width="25" />
         </a>
 
 
-        <a id="account-icon" href="#">
+        <a id="account-icon" class="w3-hide-small w3-hide-medium" href="#">
           <img class="border-hover" src="Images/account-icon.png"  alt="Account" width="25" />
         </a>
       </div>
@@ -48,24 +60,16 @@
 
     <!--This is where the nav bar is-->
 
-    <nav>
-      <div name="nav-bar-large" class="w3-bar nav-bar-color w3-hide-small">
-	  	<div class="a">
-        <button class="w3-bar-item w3-button medium-teal-hover">Computers</button>
-        <button class="w3-bar-item w3-button medium-teal-hover">Laptops</button>
-        <button class="w3-bar-item w3-button medium-teal-hover">Accessories</button>
+    <nav id="nav-bar" class="w3-hide-small nav-bar-color w3-mobile w3-bar">
+      <div>
+        <ul>
+          <li><a href="#" class="medium-teal-hover"><span class="nav-bar-item">Computer</span></a></li>
+          <li><a href="#" class="medium-teal-hover"><span class="nav-bar-item">Laptops</span></a></li>
+          <li><a href="#" class="medium-teal-hover"><span class="nav-bar-item">Accessories</span></a></li>
+          <li><a href="#" id="About" style="float:right;" class="medium-teal-hover"><span class="nav-bar-item">About</span></a></li>
+        </ul>
       </div>
-	  </div>
-
-      <div name="nav-bar-small" class="w3-bar nav-bar-color w3-hide-large w3-hide-medium w3-center">
-		  	<div class="a">
-        <button class="w-bar-item w3-button w3-block">Computer</button>
-        <button class="w-bar-item w3-button w3-block">Laptops</button>
-        <button class="w-bar-item w3-button w3-block">Accessories</button>
-      </div>
-	  
     </nav>
- </div >
 		
     <!--this is where all the products are going to be-->
     <section>
@@ -113,11 +117,11 @@
 
 <form action="/action_page.php">
   <p>	 <b>Choose a Package:</b></p>
-  <input type="radio" id="Package1">
+  <input type="radio" name="choices" id="Package1">
   <label for="Package1">Ryzen 4600H, 8GB RAM, 250 GB SSD</label><p1 class="item-price"style="float:right;padding: 0px 300px 0px 0px"class="item-price"/><b>  CDN $799.99<sup>.99</sup></b></p1><br>
-  <input type="radio" id="Package2" >
+  <input type="radio"name="choices" id="Package2" >
   <label for="Package2">Ryzen 4700H, 16GB RAM, 500 GB SSD</label><p1 class="item-price"style="float:right;padding: 0px 300px 0px 0px"class="item-price"/><b>  CDN $999.99<sup>.99</sup></b></p1><br>
-  <input type="radio" id="Package3" >
+  <input type="radio" name="choices" id="Package3" >
   <label for="Package3">Ryzen 4750H, 16GB RAM, 1TB SSD</label><p1 class="item-price"style="float:right;padding: 0px 300px 0px 0px"class="item-price"/> <b> CDN $1199.99<sup>.99</sup></b></p1>
 <form action="/action_page.php">
 
