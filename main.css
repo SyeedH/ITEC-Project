@@ -290,3 +290,6 @@ div.a {
    	
   text-justify: inter-word;	
 }
+hr.new1 {
+  border-top: 1px solid teal;
+}
