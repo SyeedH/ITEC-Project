@@ -167,7 +167,7 @@ a.footer-underline{
     list-style-type: none;
 }
 
-ul{
+ul.nav-bar{
     list-style-type: none;
     align-items: center;
     display:block;
@@ -177,11 +177,11 @@ ul{
     overflow: auto;
 }
 
-li{
+li.nav-bar-list{
     float: left;
 }
 
-li a{
+li.nav-bar-list a{
     display:block;
     text-decoration: none;
     padding: 1.2em;
