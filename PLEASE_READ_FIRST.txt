@@ -8,11 +8,7 @@ look as I'd hoped so I took it back out.
 Here is the git hub LINK
 https://github.com/SyeedH/ITEC-Project 
 
-<<<<<<< HEAD
-Instructions
-We have the main home page of the website which when you go scroll down and go into the laptop section and find the insipiron laptop.
-Clicking on this will lead you to the products page.
-=======
+
 We have the main home page of the website which when you go scroll down and go into the laptop section and find the inspiron laptop.
 Clicking on this will lead you to the products page.
->>>>>>> c5a15a123c28194fcca3844794e1b1124930efaa
+
