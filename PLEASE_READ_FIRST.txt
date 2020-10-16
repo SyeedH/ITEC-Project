@@ -6,7 +6,9 @@ where you can select package options and then proceed to final checkout. There W
 look as I'd hoped so I took it back out.
 -My partner had far too much time.... there are more revisions for the logo than I made for my gender and the law final essay last year.
 
-Instructions
+Here is the git hub LINK
+https://github.com/SyeedH/ITEC-Project 
 
+Instructions
 We have the main home page of the website which when you go scroll down and go into the laptop section and find the insipiron laptop.
 Clicking on this will lead you to the products page.
