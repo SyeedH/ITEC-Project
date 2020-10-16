@@ -8,7 +8,7 @@ look as I'd hoped so I took it back out.
 Here is the git hub LINK
 https://github.com/SyeedH/ITEC-Project 
 
-
+Instructions
 We have the main home page of the website which when you go scroll down and go into the laptop section and find the inspiron laptop.
 Clicking on this will lead you to the products page.
 
